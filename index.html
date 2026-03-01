@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RobiTalk</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<button id="themeToggle" class="theme-btn floating-theme">🌙</button>
+  <div class="container">
+   <div class="header-bar">
+  <h1><i class="fa-solid fa-comment"></i>FaizTalk</h1>
+  </div>
+    <p class="subtitle">Indo ↔ Hindi Translator</p>
+
+    <div class="top-bar">
+   <div class="top-bar">
+  <div class="lang-switch" id="langSwitch">
+    <div class="switch-track">
+      <div class="switch-thumb"></div>
+    </div>
+    <span class="switch-label">IN</span>
+  </div>
+</div>
+</div>
+    <textarea id="inputText" placeholder="Type or paste message here..."></textarea>
+    <div class="char-counter" id="charCounter">0 characters</div>
+
+    <div class="controls">
+      
+      <button id="translateBtn">
+  <span class="btn-text">Translate</span>
+  <span class="loader"></span>
+</button>
+    </div>
+
+    <textarea id="outputText" placeholder="Translation will appear here..." class="output-animate"></textarea>
+
+    <button id="copyBtn">
+  <span class="copy-text">Copy</span>
+  <span class="copy-icon">✔</span>
+</button>
+   
+  </div>
+   <p class="signature">© 2026 by Faiz</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
